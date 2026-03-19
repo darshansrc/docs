@@ -2,67 +2,70 @@
 title: "Introduction to Elk"
 sidebarTitle: "Introduction"
 icon: "wand"
-description: "An AI-powered chatbot platform that transforms your website content into intelligent customer conversations."
+description: "AI-powered support agents trained on your data. Design, deploy, and manage in minutes."
 ---
 
+<img
+  className="rounded-xl"
+  alt="Elk Hero"
+  src="/images/hero.png"
+/>
 
-![Intro Image](/images/intro.png)
-
-Elk is an AI-powered agent platform that helps you automate customer support, capture leads, and engage visitors 24/7. Train your agent on your website content, documents, and knowledge base to provide instant, accurate responses to customer questions.
+Elk is an AI-powered customer support platform that lets you build intelligent agents trained on your website, documents, and knowledge base. Deliver fast, accurate, human-like responses to your customers 24/7, without adding headcount.
 
 ## What Elk does
 
 <CardGroup cols={2}>
-  <Card title="Instant answers" icon="message-bot">
-    Answers customer questions instantly using your website, documentation, and knowledge base
+  <Card title="RAG-powered answers" icon="brain">
+    Uses Retrieval-Augmented Generation to give accurate, grounded responses from your own content, not generic guesses
   </Card>
 
   <Card title="Lead capture" icon="address-book">
-    Captures and qualifies leads with customizable forms and automated follow-ups
+    Automatically captures and qualifies leads when visitors show buying intent or request human support
   </Card>
 
-  <Card title="Human handoff" icon="user-headset">
-    Escalates to human agents when needed with seamless handoff
+  <Card title="Agentic actions" icon="bolt">
+    Triggers real workflows directly from chat: calendar bookings, Slack notifications, API calls, and more
   </Card>
 
-  <Card title="Integrations" icon="plug">
-    Integrates with your tools including Slack, Messenger, Zendesk, and more
+  <Card title="Multi-channel deployment" icon="world">
+    Deploy your agent on your website, WhatsApp, Messenger, Instagram, Slack, and Discord from a single configuration
   </Card>
 
-  <Card title="Auto-sync" icon="arrows-rotate">
-    Syncs content automatically to keep your agent up to date
+  <Card title="Analytics & insights" icon="chart-bar">
+    Track conversation quality, user geography, device types, and engagement metrics across all your agents
   </Card>
 
-  <Card title="Multi-channel" icon="globe">
-    Deploy across website, messaging platforms, and third-party tools
+  <Card title="Team collaboration" icon="users">
+    Manage agents within shared team workspaces with roles, permissions, and usage tracking built in
   </Card>
 </CardGroup>
 
 ## Key features
 
 <AccordionGroup>
-  <Accordion title="AI-powered conversations" icon="brain">
-    Use advanced AI models to understand and respond to customer queries with context-aware answers drawn from your content.
+  <Accordion title="Embeddable chat widget" icon="code">
+    Embed a fully customizable AI chat widget on any website with a single script tag. Supports tab and chat layouts, custom branding, colors, and home screen, responsive on desktop and mobile.
   </Accordion>
 
-  <Accordion title="Multi-channel support" icon="messages">
-    Deploy your agent on your website, integrate with messaging platforms like Slack and Messenger, or embed in third-party tools.
+  <Accordion title="Flexible knowledge base" icon="database">
+    Train your agent by scraping website URLs, uploading PDFs and Word documents, connecting Google Drive or Dropbox, or manually adding Q&A pairs. Built on a scalable RAG pipeline with built-in retrieval testing tools.
   </Accordion>
 
-  <Accordion title="Lead generation" icon="user-plus">
-    Collect visitor information with customizable forms, qualify leads automatically, and route them to your sales team.
+  <Accordion title="AI model selection" icon="cpu">
+    Choose from the latest models across OpenAI, Anthropic, Google, xAI (Grok), Meta, Fireworks, and more. Configure custom system prompts to shape your agent's tone and behavior.
   </Accordion>
 
-  <Accordion title="Human handoff" icon="handshake">
-    Switch conversations from AI to human agents when needed, with full conversation history and context.
+  <Accordion title="Plugins & integrations" icon="plug">
+    Extend your agent with plugins: show custom action buttons, enable real-time web search, trigger Slack notifications on specific topics, or let users book meetings via Cal.com or Calendly, all within the chat.
   </Accordion>
 
-  <Accordion title="Content management" icon="folder-open">
-    Train your agent on websites, PDFs, text files, and more. Set up automatic syncing to keep content fresh.
+  <Accordion title="Security & access control" icon="shield">
+    Protect your agent with IP-based rate limiting, JWT-based user authentication, and enterprise-grade data handling policies to keep customer data confidential and compliant.
   </Accordion>
 
-  <Accordion title="Customization" icon="palette">
-    Personalize your agent's appearance, personality, and behavior to match your brand and use case.
+  <Accordion title="Chat history & contacts" icon="history">
+    Review full conversation history per agent, manage contacts from chat sessions, and use authenticated user identity to personalize interactions.
   </Accordion>
 </AccordionGroup>
 
@@ -70,40 +73,40 @@ Elk is an AI-powered agent platform that helps you automate customer support, ca
 
 <Steps>
   <Step title="Train your agent">
-    [Add your website URLs, documents, or knowledge base content](/setup/training-your-agent)
+    [Add your website URLs, upload documents, or create manual Q&A pairs](/setup/training-your-agent) to build your agent's knowledge base
   </Step>
 
-  <Step title="Customize the experience">
-    [Configure your branding, personality, and conversation flows](/navigating-your-agent/customizing-your-agent)
+  <Step title="Customize your agent">
+    [Configure your agent's branding, AI model, system prompt, and widget appearance](/navigating-your-agent/customizing-your-agent) to match your product and brand voice
   </Step>
 
-  <Step title="Deploy anywhere">
-    [Launch on your website](/setup/integrating-with-your-website), in messaging apps, or through [integrations](/integrations/overview)
+  <Step title="Deploy everywhere">
+    [Embed on your website](/setup/integrating-with-your-website) or connect to [WhatsApp, Messenger, Slack, Instagram, and Discord](/integrations/overview). One agent, many channels.
   </Step>
 
-  <Step title="Monitor and improve">
-    Track [analytics](/navigating-your-agent/agent-dashboard), [conversation history](/navigating-your-agent/chat-history), and feedback
+  <Step title="Monitor & improve">
+    Use [analytics](/navigating-your-agent/agent-dashboard) and [chat history](/navigating-your-agent/chat-history) to track performance, spot gaps in your docs, and continuously improve your agent
   </Step>
 </Steps>
 
-<Info>Elk handles the complexity of AI, content management, and integrations so you can focus on serving your customers.</Info>
+<Info>Elk handles the complexity of AI, retrieval, integrations, and multi-channel deployment so your team can focus entirely on your customers.</Info>
 
 ## Next steps
 
 <CardGroup cols={2}>
-  <Card title="Create your first agent" icon="plus" href="/setup/create-new-agent">
-    Get started by creating and customizing your first agent
+  <Card title="Create your first agent" icon="circle-plus" href="/setup/create-new-agent">
+    Set up and launch your first AI support agent in minutes
   </Card>
 
-  <Card title="Try the live demo" icon="play" href="/introduction/live-demo">
-    Experience Elk in action with our interactive demo
+  <Card title="Train on your content" icon="book" href="/setup/training-your-agent">
+    Learn how to add websites, documents, and Q&A to your knowledge base
   </Card>
 
-  <Card title="Explore use cases" icon="lightbulb" href="/introduction/our-use-cases">
-    See how businesses use Elk to solve real problems
+  <Card title="Explore integrations" icon="plug" href="/integrations/overview">
+    Connect Elk to WhatsApp, Slack, Messenger, and your existing tools
   </Card>
 
-  <Card title="View integrations" icon="plug" href="/integrations/overview">
-    Connect Elk with your existing tools and platforms
+  <Card title="View pricing plans" icon="tag" href="https://elkagent.com/pricing">
+    Find the right plan for your team's support volume and scale
   </Card>
 </CardGroup>

@@ -8,7 +8,7 @@
   "colors": {
     "primary": "#000000",
     "light": "#ffffff",
-    "dark": "#000000"
+    "dark": "#18181B"
   },
   "favicon": "/images/favicon.ico",
   "navigation": {
@@ -17,7 +17,7 @@
         {
           "anchor": "Dashboard",
           "icon": "layout-dashboard",
-          "href": "https://mintlify.com/docs"
+          "href": "https://elkagent.com/dashboard"
         },
         {
           "anchor": "Community",
@@ -28,53 +28,12 @@
     },
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Docs",
         "icon": "book",
         "groups": [
           {
             "group": "Getting started",
-
-            "pages": ["index", "quickstart", "development"]
-          },
-          {
-            "group": "Customization",
-            "pages": ["essentials/settings", "essentials/navigation"]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "icon": "code",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": ["api-reference/introduction"]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "pages": ["index"]
           }
         ]
       },
@@ -84,7 +43,6 @@
         "groups": [
           {
             "group": "Changelog",
-            "icon": "git-branch",
             "pages": ["changelog/index"]
           }
         ]
@@ -117,7 +75,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/elkagent"
+      "x": "https://x.com/elkagent",
+      "discord": "https://discord.gg/wfEQBe4p",
+      "linkedin": "https://linkedin.com/company/elkagent"
     }
   },
   "appearance": {
