@@ -4,8 +4,8 @@
   "name": "Mint Starter Kit",
   "colors": {
     "primary": "#2563EB",
-    "light": "#2563EB",
-    "dark": "#2563EB"
+    "light": "#000000",
+    "dark": "#ffffff"
   },
   "favicon": "/images/favicon.ico",
   "navigation": {
@@ -93,7 +93,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:darshan@elkagent.com"
       }
     ],
     "primary": {
@@ -116,15 +116,16 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/elkagent"
     }
   },
   "appearance": {
     "default": "system"
   },
   "background": {
-    "image": "/images/widget-bg.jpg"
+    "decoration": "grid"
+  },
+  "fonts": {
+    "family": "Geist"
   }
 }
