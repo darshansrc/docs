@@ -85,7 +85,8 @@
   },
   "logo": {
     "light": "/images/logo.svg",
-    "dark": "/images/image(4).png"
+    "dark": "/images/image(4).png",
+    "href": "https://elkagent.com"
   },
   "navbar": {
     "links": [
@@ -125,12 +126,9 @@
       "light": "#ffffff",
       "dark": "#000000"
     },
-    "decoration": "windows"
+    "decoration": "grid"
   },
   "fonts": {
     "family": "Geist"
-  },
-  "banner": {
-    "dismissible": false
   }
 }
