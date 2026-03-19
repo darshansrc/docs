@@ -2,6 +2,9 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Docs | Elk Agent",
+  "icons": {
+    "library": "tabler"
+  },
   "colors": {
     "primary": "#000000",
     "light": "#ffffff",
@@ -12,23 +15,25 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
+          "anchor": "Dashboard",
+          "icon": "layout-dashboard",
           "href": "https://mintlify.com/docs"
         },
         {
           "anchor": "Community",
-          "icon": "slack",
-          "href": "https://mintlify.com/community"
+          "icon": "discord",
+          "href": "https://discord.gg/wfEQBe4p"
         }
       ]
     },
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
+        "icon": "book",
         "groups": [
           {
             "group": "Getting started",
+
             "pages": ["index", "quickstart", "development"]
           },
           {
@@ -56,6 +61,7 @@
       },
       {
         "tab": "API reference",
+        "icon": "code",
         "groups": [
           {
             "group": "API documentation",
@@ -69,6 +75,17 @@
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
             ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "git-branch",
+        "groups": [
+          {
+            "group": "Changelog",
+            "icon": "git-branch",
+            "pages": ["changelog/index"]
           }
         ]
       }
@@ -113,7 +130,6 @@
     }
   },
   "fonts": {
-    "family": "Geist",
-    "weight": 500
+    "family": "Geist"
   }
 }
