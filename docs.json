@@ -1,14 +1,28 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Elk Docs",
   "colors": {
-    "primary": "#2563EB",
+    "primary": "#2563eb",
     "light": "#000000",
     "dark": "#ffffff"
   },
   "favicon": "/images/favicon.ico",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "icon": "book-open-cover",
+          "href": "https://mintlify.com/docs"
+        },
+        {
+          "anchor": "Community",
+          "icon": "slack",
+          "href": "https://mintlify.com/community"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -67,26 +81,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": "/images/logo.svg",
   "navbar": {
@@ -123,7 +118,10 @@
     "default": "system"
   },
   "background": {
-    "decoration": "grid"
+    "color": {
+      "light": "#000000",
+      "dark": "#ffffff"
+    }
   },
   "fonts": {
     "family": "Geist"
