@@ -7,7 +7,7 @@
     "light": "#2563EB",
     "dark": "#2563EB"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/favicon.ico",
   "navigation": {
     "tabs": [
       {
@@ -88,10 +88,7 @@
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "/images/logo.svg",
   "navbar": {
     "links": [
       {
@@ -126,5 +123,8 @@
   },
   "appearance": {
     "default": "system"
+  },
+  "background": {
+    "image": "/images/widget-bg.jpg"
   }
 }
