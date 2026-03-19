@@ -3,7 +3,7 @@
   "theme": "mint",
   "name": "Elk Docs",
   "colors": {
-    "primary": "#2563eb",
+    "primary": "#000000",
     "light": "#ffffff",
     "dark": "#000000"
   },
@@ -83,7 +83,10 @@
       }
     ]
   },
-  "logo": "/images/logo.svg",
+  "logo": {
+    "light": "/images/logo.svg",
+    "dark": "/images/image(4).png"
+  },
   "navbar": {
     "links": [
       {
@@ -121,9 +124,13 @@
     "color": {
       "light": "#ffffff",
       "dark": "#000000"
-    }
+    },
+    "decoration": "windows"
   },
   "fonts": {
     "family": "Geist"
+  },
+  "banner": {
+    "dismissible": false
   }
 }
