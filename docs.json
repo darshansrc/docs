@@ -85,7 +85,7 @@
   },
   "logo": {
     "light": "/images/logo.svg",
-    "dark": "/images/image(4).png",
+    "dark": "/images/Elk(1).png",
     "href": "https://elkagent.com"
   },
   "navbar": {
@@ -123,6 +123,7 @@
     "decoration": "grid"
   },
   "fonts": {
-    "family": "Geist"
+    "family": "Geist",
+    "weight": 500
   }
 }
