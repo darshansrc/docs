@@ -4,8 +4,8 @@
   "name": "Elk Docs",
   "colors": {
     "primary": "#2563eb",
-    "light": "#000000",
-    "dark": "#ffffff"
+    "light": "#ffffff",
+    "dark": "#000000"
   },
   "favicon": "/images/favicon.ico",
   "navigation": {
@@ -119,8 +119,8 @@
   },
   "background": {
     "color": {
-      "light": "#000000",
-      "dark": "#ffffff"
+      "light": "#ffffff",
+      "dark": "#000000"
     }
   },
   "fonts": {
